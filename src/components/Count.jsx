@@ -1,7 +1,7 @@
-export const Count = ({ addCount }) => {
+export const Count = ({ doSomething, buttonName }) => {
    return (
-        <button onClick={addCount}>
-            Click
+        <button onClick={doSomething}>
+            {buttonName}
         </button>
     )
 };
